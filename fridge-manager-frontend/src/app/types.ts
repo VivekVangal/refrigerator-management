@@ -7,3 +7,12 @@ export interface FridgeItem {
     category: string;
     storage_location: string;
 }
+
+export interface CSVItem {
+    Name: string;
+    Quantity: string;
+    Unit: string;
+    "Expiry Date": string;
+    Category: string;
+    "Storage Location": string;
+}

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Don't ignore data directory
+!data/
+!data/refrigerator_items.csv
